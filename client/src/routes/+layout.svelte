@@ -2,4 +2,8 @@
 	import '../app.css';
 </script>
 
-<slot />
+<header>header</header>
+<main class="flex-auto">
+	<slot />
+</main>
+<footer>footer</footer>
