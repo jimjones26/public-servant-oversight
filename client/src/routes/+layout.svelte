@@ -1,4 +1,5 @@
 <script>
+	import Footer from '$lib/Footer/Footer.svelte';
 	import '../app.css';
 </script>
 
@@ -6,4 +7,4 @@
 <main class="flex-auto">
 	<slot />
 </main>
-<footer>footer</footer>
+<Footer />
