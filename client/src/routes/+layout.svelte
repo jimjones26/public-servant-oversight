@@ -4,9 +4,8 @@
 	import '../app.css';
 </script>
 
-<header />
-<Breakpoints />
-<main class="flex-auto">
+<header class="fixed top-0 w-full z-50">THIS IS THE HEADER</header>
+<main class="min-h-screen mb-[100px] mt-[24px]">
 	<slot />
 </main>
 <Footer />
