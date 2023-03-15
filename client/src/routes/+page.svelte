@@ -2,21 +2,19 @@
 	<title>Hello World</title>
 </svelte:head>
 
-<h1>Header 1</h1>
-<h2>Header 2</h2>
-<h3>Header 3</h3>
-<h4>Header 4</h4>
-<h5>Header 5</h5>
-<h6>Header 6</h6>
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br
-/><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br
-/><br /><br /><br /><br />
-<p>Hello</p>
-<p>We are trying to see...</p>
-<p>How far down...</p>
-<p>The paragraphs are hidden...</p>
-<p>Under the Footer...</p>
+<h1 class="text-7xl">Header (7xl)</h1>
+<h1 class="text-6xl">Header (6xl)</h1>
+<h1 class="text-5xl">Header (5xl)</h1>
+<h1 class="text-4xl">Header (4xl)</h1>
+<h1 class="text-3xl">Header (3xl)</h1>
+<h1 class="text-2xl">Header (2xl)</h1>
+<h2 class="text-xl">Header (xl)</h2>
+<h3 class="text-lg">Header (lg)</h3>
+<p class="text-base">A regular paragraph (base)</p>
+<p class="text-sm">A description paragraph (sm)</p>
+<p class="text-xs note">A little note... (xs)</p>
+<div class="bg-black min-h-[500px]" />
+<br />
 
 <style lang="postcss">
 	:global(html) {
