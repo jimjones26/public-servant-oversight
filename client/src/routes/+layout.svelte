@@ -6,7 +6,7 @@
 </script>
 
 <Header />
-<div class="min-h-[100%] mt-[104px] mb-[84px] min-w-[320px] lg:mt-[0px] lg:mb-[0px] flex">
+<div class="min-h-[100%] mt-[80px] mb-[84px] min-w-[320px] lg:mt-[0px] lg:mb-[0px] flex">
 	<Sidebar />
 	<main class="grow">
 		<slot />
