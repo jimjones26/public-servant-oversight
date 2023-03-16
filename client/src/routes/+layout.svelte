@@ -6,7 +6,7 @@
 </script>
 
 <Header />
-<main class="min-h-[100%] mt-[104px] mb-[84px]">
+<main class="min-h-[100%] mt-[104px] mb-[84px] min-w-[320px]">
 	<slot />
 </main>
 <Footer />
