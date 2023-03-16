@@ -4,5 +4,5 @@
 
 <header class="fixed top-0 lg:hidden w-full z-50 bg-white p-6 flex min-w-[320px]">
 	<div class="grow"><Logo /></div>
-	<div class="bg-gray-100">search</div>
+	<div class="py-1 px-2 text-lg"><span class="fa-solid fa-search" /></div>
 </header>
