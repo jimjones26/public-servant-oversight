@@ -9,7 +9,7 @@
 </script>
 
 <footer
-	class="flex py-6 lg:hidden bg-white shadow-lg shadow-slate-800 font-bold text-2xl fixed bottom-0 w-full z-40"
+	class="flex py-4 lg:hidden bg-white shadow-lg shadow-slate-800 font-bold text-2xl fixed bottom-0 w-full z-40"
 >
 	{#each footerNavItems as item}
 		<FooterTabItem text={item.text} icon={item.icon} />
