@@ -1,7 +1,9 @@
 <script>
+	import layoutStore from '$lib/stores/layout-store';
 	import Sidebar from '$lib/Sidebar/Sidebar.svelte';
 	import Footer from '$lib/Footer/Footer.svelte';
 	import Header from '$lib/Header/Header.svelte';
+
 	import '../app.css';
 </script>
 
@@ -12,5 +14,11 @@
 		<slot />
 	</main>
 </div>
-
+<!-- svelte-ignore missing-declaration -->
 <Footer />
+
+{#if $layoutStore.showMobileMenu}
+	<div class="fixed left-0 top-0 h-full w-full z-1 bg-black text-white">
+		<button on:click={layoutStore.toggleMobileMenu}>CLOSE</button>
+	</div>
+{/if}
